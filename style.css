@@ -1,5 +1,12 @@
 body {
     background: #f7f7f7;
+    /* o ideal é ter mais de uma fonte de backup
+    para caso a primeira falhe, o restante complementa */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* faz com que a largura máxima seja a declarada */
+    max-width: 900px;
+    /* declarar margin no auto, faz com que a tela se auto reajuste */
+    margin: auto;
 }
 
 .alien_pls {
@@ -10,6 +17,19 @@ body {
 #title,
 .subtitle,
 .post_title {
+    color: #505050;
+}
+
+#title {
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+
+/* risca todo o texto contendo entre <a> e </a> */
+
+a {
+    text-decoration: line-through;
     color: #505050;
 }
 
@@ -32,8 +52,19 @@ body {
     margin: 0;
     margin-bottom: 15px;
     color: black;
+    text-transform: capitalize;
+    text-align: justify;
 }
 
 .post_image {
     margin-bottom: 15px;
+}
+
+.contact_list {
+    list-style-type: none;
+    padding-left: 15px;
+}
+
+.contact_list li a {
+    text-decoration: none;
 }
