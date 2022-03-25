@@ -1,0 +1,23 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, sans-serif;
+    background-image: url(imagens/background.jpg);
+    background-size: contain;
+    color: antiquewhite;
+}
+
+.quem-somos {
+    text-align: justify;
+}
+
+.navbar.navbar-expand-lg.navbar-light.margin li a {
+    color: antiquewhite;
+}
+
+.margin {
+    padding-bottom: 30px;
+    padding-top: 10px;
+}
+
+.texto-sistema {
+    text-align: justify;
+}
